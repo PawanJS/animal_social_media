@@ -1,6 +1,7 @@
 import Head from 'next/head';
 
 import { Layout } from '../components/Layout/layout';
+import SignIn from '../components/SignIn/signIn.component';
 
 export default function Sign_in() {
   return (
@@ -10,7 +11,7 @@ export default function Sign_in() {
         <meta name="description" content="Login to animal social media" />
       </Head>
       <Layout>
-        <h1>Sign_in page</h1>
+        <SignIn />
       </Layout>
     </>
   );

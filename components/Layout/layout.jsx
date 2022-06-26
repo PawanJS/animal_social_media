@@ -5,7 +5,6 @@ export const Layout = ({ children }) => {
     <>
       <Header />
       {children}
-      <footer className="font-bold">footer</footer>
     </>
   );
 };
